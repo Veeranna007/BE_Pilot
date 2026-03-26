@@ -1,0 +1,535 @@
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"fms tsk","fmsDescription":"fms tsk","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed2c20b8988cebf69d06b9","fmsMasterId":4,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"fms tsk","fmsDescription":"fms tsk","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T13:32:40+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T13:32:40+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:32:46+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:32:46+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:4 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:32:46+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:32:46+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:4 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:32:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T13:33:07+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"stpe1","id":1},"next":[],"nextDecision":{},"endStep":true,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T13:33:07+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony hit the api makeFmsLive',
+  timestamp: '2024-09-20T13:33:13+05:30'
+}
+{
+  level: 'info',
+  message: 'New FMS created with ID: 5 and version: 2 by Salman',
+  timestamp: '2024-09-20T13:33:13+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api editFmsStep1',
+  timestamp: '2024-09-20T13:33:48+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman has updated step1 by requesting data with {"fmsMasterId":5,"fmsName":"fms tsk","fmsProcess":1,"fmsDescription":"fms tsk"}.Based on the request,step1 is updated with the data {"$set":{"fmsName":"fms tsk","fmsDescription":"fms tsk"}}',
+  timestamp: '2024-09-20T13:33:48+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:33:51+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:5 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:33:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:33:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:33:53+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:5 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:34:04+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:34:41+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:5 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:34:41+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:34:42+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:34:42+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:5 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:34:53+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:36:09+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:36:09+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:36:09+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:5 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:36:09+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:5 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:36:24+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:36:59+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:5 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:36:59+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:37:00+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:37:00+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:5 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:37:08+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T13:38:04+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"stpe1","id":1},"next":[{"what":"step2","id":2}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T13:38:04+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:38:16+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:5 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:38:16+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:38:17+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:38:17+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:5 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:38:26+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T13:38:45+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"stpe1","id":1},"next":[{"what":"step2","id":2}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"},{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step2","id":2},"next":[{"what":"step33","id":3}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":2,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"P2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T13:38:46+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T13:38:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T13:38:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0315f02b-c8c2-4f3d-be0d-672351214cc8","question":"fms tsk","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T13:38:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:5 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T13:38:52+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:5 steps have been replaced by Salman',
+  timestamp: '2024-09-20T13:39:04+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"fms task creation for testing the edit functionality","fmsDescription":"fms task creation for testing the edit functionality","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed48bfe64d2a57389431d0","fmsMasterId":1,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"fms task creation for testing the edit functionality","fmsDescription":"fms task creation for testing the edit functionality","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T15:34:47+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T15:34:47+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:34:53+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:34:53+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:34:54+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"37cd3fdf-9eba-486b-9211-4e352f7fdfd5","question":"fms task creation for testing the edit functionality","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:34:54+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:35:05+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T15:35:23+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step1","id":1},"next":[{"what":"step2","id":2}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T15:35:24+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T15:36:10+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step2","id":2},"next":[{"what":"step3","id":3}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":2,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T15:36:11+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"fms task testing","fmsDescription":"fms task testing","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed494ce64d2a57389431d1","fmsMasterId":1,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"fms task testing","fmsDescription":"fms task testing","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T15:37:08+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T15:37:08+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:37:16+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"31b41f59-970a-4a78-927d-206ee74ae4cb","question":"fms task testing","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:37:16+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:37:16+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:37:16+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:37:29+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T15:37:44+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step1","id":1},"next":[{"what":"step2","id":2}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T15:37:44+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T15:38:03+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step1","id":1},"next":[{"what":"step2","id":2}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"},{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step2","id":2},"next":[{"what":"step3","id":3}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":2,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T15:38:03+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsSteps',
+  timestamp: '2024-09-20T15:38:18+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman creating {"$set":{"fmsSteps":[{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step1","id":1},"next":[{"what":"step2","id":2}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":1,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"},{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step2","id":2},"next":[{"what":"step3","id":3}],"nextDecision":{},"endStep":false,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":2,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"},{"who":{"typeOfShift":"All","employees":[{"employeName":"Salman","employeeId":1}]},"what":{"what":"step3","id":3},"next":[],"nextDecision":{},"endStep":true,"when":"","how":{"type":"NONE","description":"","formStepsQustions":[],"miniStepsDetails":[]},"plannedDate":{"type":"TAThrs","duration":"2","durationType":"hrs","customTime":null,"working":"INSIDE"},"id":3,"stepType":"DOER","isWhatsAppEnabled":false,"whatsappData":{"templateMsg":"","internalEmployees":[],"externalEmployees":[]},"startTimeType":"A2P"}]}} fms steps and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1} fms steps',
+  timestamp: '2024-09-20T15:38:18+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:38:27+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"31b41f59-970a-4a78-927d-206ee74ae4cb","question":"fms task testing","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:38:27+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:38:28+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:38:28+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:38:38+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"fms task testing edit ","fmsDescription":"fms task testing edit ","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed4badaa218cc3c2df0b7b","fmsMasterId":1,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"fms task testing edit ","fmsDescription":"fms task testing edit ","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T15:47:17+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T15:47:18+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:47:24+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:47:24+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"2a7fae37-8da9-4f87-82ca-2c565e13eaad","question":"fms task testing edit ","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:47:25+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:47:25+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:47:40+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"fms test","fmsDescription":"fms test","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed4caec05f2b9ac25e7423","fmsMasterId":1,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"fms test","fmsDescription":"fms test","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T15:51:34+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T15:51:34+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:52:07+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:52:08+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:52:08+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"416c74ed-8719-4afd-9923-330b9e7eda4b","question":"fms test","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:52:08+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:52:23+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"fms test","fmsDescription":"fms test","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed4d37c05f2b9ac25e7424","fmsMasterId":1,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"fms test","fmsDescription":"fms test","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T15:53:51+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T15:53:52+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:54:05+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:54:05+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:54:06+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"507bbd69-dd05-438b-adcd-2410ed73454b","question":"fms test","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:54:06+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:54:23+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman is creating step1 by inserting data with {"fmsName":"test test","fmsDescription":"test test","fmsProcess":"1"}.Based on the request,step1 is created with the data {"_id":"66ed4e3b310742c5c07ee723","fmsMasterId":1,"fmsCreatedBy":{"userID":1,"userEmail":"sony@gmail.com","userName":"Salman"},"fmsName":"test test","fmsDescription":"test test","fmsProcess":{"processId":1,"processName":"testing process","processDescription":null,"processCoordinatorId":2,"problemSolverId":null,"deptId":2,"processCoordinatorName":"Yusuf","problemSolverName":null},"noOfLive":0,"creationDate":"2024-09-20T15:58:11+05:30","isDraft":true,"fmsLive":false}',
+  timestamp: '2024-09-20T15:58:12+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:58:18+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:58:18+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:58:19+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0a99bcce-c71a-48f7-9f7f-c72d4040fd95","question":"test test","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:58:19+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:58:32+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T15:58:45+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T15:58:46+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T15:58:46+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0a99bcce-c71a-48f7-9f7f-c72d4040fd95","question":"test test","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T15:58:47+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T15:59:13+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api addFmsUserAccess',
+  timestamp: '2024-09-20T16:00:12+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman assigned FMS Id:1 task and provided an access to [{"name":"Salman","id":1}]',
+  timestamp: '2024-09-20T16:00:13+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman from company sony  hit the api createFmsQuestionare',
+  timestamp: '2024-09-20T16:00:13+05:30'
+}
+{
+  level: 'info',
+  message: 'Salman updating {"$set":{"fmsQuestionare":[{"id":"0a99bcce-c71a-48f7-9f7f-c72d4040fd95","question":"test test","required":false,"answerType":"TEXT","allowedAnswers":[],"isStartDate":false}]}} questionary and successfully updated {"acknowledged":true,"modifiedCount":0,"upsertedId":null,"upsertedCount":0,"matchedCount":1}',
+  timestamp: '2024-09-20T16:00:14+05:30'
+}
+{
+  level: 'info',
+  message: 'FMS id:1 steps have been replaced by Salman',
+  timestamp: '2024-09-20T16:00:37+05:30'
+}

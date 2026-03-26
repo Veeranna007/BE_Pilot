@@ -1,0 +1,70 @@
+const express = require("express");
+const getProcessDept = express.Router();
+const MongoClient = require('mongodb').MongoClient;
+const axios = require('axios');
+
+getProcessDept.get('/getProcessDept', async (req, res) => {
+  let userName = "";
+  let userID = "";
+  let companyUrl = "";
+  let userEmail = "";
+
+  // Check for authorization header
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+    console.log("Error: Authorization header missing or malformed");
+    return res.status(401).json({ error: "Unauthorized" });
+  }
+  const token = authHeader.split(" ")[1];
+
+  console.log("Token fetched is", token);
+
+  try {
+    // Fetch user details and company details based on the token
+    const response = await axios.post(process.env.MAIN_BE_URL, { token });
+    console.log("Fetched User Details and Company Details", response.data);
+    userName = response.data.emp_name;
+    userID = response.data.user_id;
+    companyUrl = response.data.verify_company_url;
+    userEmail = response.data.email_id;
+  } catch (error) {
+    console.error("Error posting data:", error);
+    return res.status(500).json({ error: error.message });
+  }
+
+  // Extract query parameters from request body
+  let { dept_id } = req.query;
+  
+  try {
+    // Connect to MongoDB
+    const client = await MongoClient.connect(process.env.MONGO_DB_STRING, { useNewUrlParser: true, useUnifiedTopology: true });
+    console.log("Connected to database");
+    const db = client.db(companyUrl);
+    const collection = db.collection("fmsMaster");
+
+    const query = {};
+    // Construct the query object dynamically based on the presence of fields
+    if (dept_id) query['fmsProcess.deptId'] = parseInt(dept_id, 10);
+    const processList = await collection.find(query).toArray();
+
+    console.log("processList:", processList);
+     // Extract the fmsProcess objects from the documents
+     const fmsProcesses = processList.map(doc => doc.fmsProcess);
+
+     console.log("fmsProcesses:", fmsProcesses);
+    // Send the fetched documents as the response
+    res.status(200).json({
+      message: fmsProcesses,
+      status: 200
+    });
+
+    // Close the MongoDB connection
+    await client.close();
+    console.log('MongoDB connection closed');
+  } catch (error) {
+    console.error("Error connecting to MongoDB", error);
+    return res.status(500).json({ error: error.message });
+  }
+});
+
+module.exports = getProcessDept;

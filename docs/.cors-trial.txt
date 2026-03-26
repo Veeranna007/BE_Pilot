@@ -1,0 +1,29 @@
+// Allow requests only from a specific origin
+app.use(cors({
+  origin: 'http://example.com'
+}));
+
+// Allow requests from multiple origins
+app.use(cors({
+  origin: ['http://example1.com', 'http://example2.com']
+}));
+
+// Allow all headers
+app.use(cors({
+  allowedHeaders: '*'
+}));
+
+// Allow specific headers
+app.use(cors({
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
+// Allow specific HTTP methods
+app.use(cors({
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
+}));
+
+// Allow credentials (cookies, authorization headers)
+app.use(cors({
+  credentials: true
+}));
