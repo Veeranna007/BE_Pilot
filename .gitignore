@@ -1,3 +1,5 @@
 node_modules/
 .env
 loggers
+helpers/envDEV.txt
+echo helpers/envDEV.txt >> .gitignore
